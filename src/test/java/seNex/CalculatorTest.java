@@ -20,5 +20,11 @@ public class CalculatorTest {
 		assertEquals(10, cal.getResult());
 	}
 
+	@Test
+	public void testMul() {
+		Calculator cal = new Calculator();
+		cal.mul(20,  10);
+		assertEquals(200, cal.getResult());
+	}
 }
 
